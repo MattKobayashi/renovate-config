@@ -1,0 +1,29 @@
+{
+  "$schema": "https://docs.renovatebot.com/renovate-schema.json",
+  "assignees": ["MattKobayashi"],
+  "extends": ["config:recommended"],
+  "packageRules": [
+    {
+      "matchPackageNames": ["lscr.io/linuxserver/jellyfin"],
+      "allowedVersions": "<2021"
+    },
+    {
+      "matchPackageNames": ["lscr.io/linuxserver/lidarr"],
+      "allowedVersions": "<8"
+    },
+    {
+      "matchPackageNames": ["lscr.io/linuxserver/overseerr"],
+      "allowedVersions": "<2021"
+    },
+    {
+      "matchPackageNames": ["lscr.io/linuxserver/qbittorrent"],
+      "allowedVersions": "<14"
+    },
+    {
+      "matchPackageNames": ["lscr.io/linuxserver/tautulli"],
+      "allowedVersions": "<2021"
+    }
+  ],
+  "recreateWhen": "never",
+  "reviewers": ["MattKobayashi"]
+}
