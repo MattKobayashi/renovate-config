@@ -24,6 +24,5 @@
       "allowedVersions": "<2021"
     }
   ],
-  "recreateWhen": "never",
-  "reviewers": ["MattKobayashi"]
+  "recreateWhen": "never"
 }
