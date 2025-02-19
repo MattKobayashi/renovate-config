@@ -31,6 +31,5 @@
       "matchPackageNames": ["lscr.io/linuxserver/tautulli"],
       "allowedVersions": "<2021"
     }
-  ],
-  "recreateWhen": "never"
+  ]
 }
