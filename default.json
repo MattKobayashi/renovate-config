@@ -12,6 +12,10 @@
       "allowedVersions": "<8"
     },
     {
+      "matchPackageNames": ["lscr.io/linuxserver/netbootxyz"],
+      "allowedVersions": "<2"
+    },
+    {
       "matchPackageNames": ["lscr.io/linuxserver/overseerr"],
       "allowedVersions": "<2021"
     },
