@@ -4,6 +4,10 @@
   "extends": ["config:recommended"],
   "packageRules": [
     {
+      "matchPackageNames": ["docker.io/fireflyiii/core"],
+      "versioning": "regex:^version-(?<major>\\d+)\\.(?<minor>\\d+)\\.?(?<patch>\\d+)?$"
+    },
+    {
       "matchPackageNames": ["lscr.io/linuxserver/jellyfin"],
       "allowedVersions": "<2021"
     },
