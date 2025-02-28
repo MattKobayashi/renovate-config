@@ -1,7 +1,7 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "assignees": ["MattKobayashi"],
-  "extends": [":automergeDigest", "config:best-practices", "schedule:weekends"],
+  "extends": [":automergeDigest", "config:best-practices"],
   "pep723": {
     "fileMatch": [".*\\.py"]
   },
