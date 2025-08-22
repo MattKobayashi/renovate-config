@@ -12,6 +12,19 @@
     }
   ],
   "extends": [":automergeDigest", "config:best-practices"],
+  "packageRules": [
+    {
+      "autoMerge": true,
+      "matchManagers": ["github-actions"],
+      "matchUpdateTypes": [
+        "minor",
+        "lockFileMaintenance",
+        "patch",
+        "digest",
+        "bump"
+      ]
+    }
+  ],
   "pep723": {
     "fileMatch": [".*\\.py"]
   },
