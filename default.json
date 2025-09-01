@@ -12,14 +12,11 @@
     }
   ],
   "extends": [":automergeDigest", "config:best-practices"],
+  "minimumReleaseAge": "24 hours",
   "packageRules": [
     {
       "autoMerge": true,
-      "matchUpdateTypes": [
-        "minor",
-        "patch",
-        "digest"
-      ]
+      "matchUpdateTypes": ["minor", "patch", "digest"]
     }
   ],
   "pep723": {
