@@ -11,14 +11,8 @@
       "versioningTemplate": "{{#if versioning}}{{{versioning}}}{{else}}semver{{/if}}"
     }
   ],
-  "extends": [":automergeDigest", "config:best-practices"],
+  "extends": [":automergeDigest", ":automergeMinor", "config:best-practices"],
   "minimumReleaseAge": "24 hours",
-  "packageRules": [
-    {
-      "autoMerge": true,
-      "matchUpdateTypes": ["minor", "patch", "digest"]
-    }
-  ],
   "pep723": {
     "fileMatch": [".*\\.py"]
   },
