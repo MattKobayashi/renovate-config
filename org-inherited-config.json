@@ -24,7 +24,7 @@
   "internalChecksAsSuccess": true,
   "minimumReleaseAge": "3 days",
   "pep723": {
-    "fileMatch": [
+    "managerFilePatterns": [
       ".*\\.py"
     ]
   },
