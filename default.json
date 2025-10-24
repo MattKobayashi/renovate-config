@@ -26,6 +26,7 @@
       ".*\\.py"
     ]
   },
+  "platformAutomerge": false,
   "prHourlyLimit": 0,
   "timezone": "Australia/Brisbane"
 }
