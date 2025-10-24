@@ -18,7 +18,8 @@
   "extends": [
     ":automergeDigest",
     ":automergeMinor",
-    "config:best-practices"
+    "config:best-practices",
+    "mergeConfidence:all-badges"
   ],
   "internalChecksAsSuccess": true,
   "minimumReleaseAge": "3 days",
