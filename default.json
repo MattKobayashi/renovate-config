@@ -20,6 +20,7 @@
     ":automergeMinor",
     "config:best-practices"
   ],
+  "internalChecksAsSuccess": true,
   "minimumReleaseAge": "24 hours",
   "pep723": {
     "fileMatch": [
