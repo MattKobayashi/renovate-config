@@ -23,6 +23,14 @@
   ],
   "internalChecksAsSuccess": true,
   "minimumReleaseAge": "3 days",
+  "packageRules": [
+    {
+      "matchPackageNames": [
+        "/python/"
+      ],
+      "groupName": "python"
+    }
+  ],
   "pep723": {
     "managerFilePatterns": [
       ".*\\.py"
