@@ -22,7 +22,6 @@
     "mergeConfidence:all-badges"
   ],
   "internalChecksAsSuccess": true,
-  "minimumReleaseAge": "14 days",
   "packageRules": [
     {
       "matchPackageNames": [
