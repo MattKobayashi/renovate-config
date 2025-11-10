@@ -22,6 +22,9 @@
     "mergeConfidence:all-badges"
   ],
   "internalChecksAsSuccess": true,
+  "lockFileMaintenance": {
+    "enabled": true
+  },
   "packageRules": [
     {
       "matchPackageNames": [
