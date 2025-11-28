@@ -41,6 +41,9 @@
     ]
   },
   "platformAutomerge": false,
+  "pre-commit": {
+    "enabled": true
+  },
   "prHourlyLimit": 0,
   "timezone": "Australia/Brisbane"
 }
