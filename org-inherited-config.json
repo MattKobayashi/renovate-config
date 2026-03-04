@@ -30,7 +30,7 @@
   "packageRules": [
     {
       "matchPackageNames": [
-        "/python/"
+        "/^python$/"
       ],
       "groupName": "python"
     }
